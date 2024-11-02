@@ -27,37 +27,53 @@
     text-decoration: none;
   }
 
- /* NAVBAR */
+  <!-- Navigation -->
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
 nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  
-    padding: 0 50px;
-    height: 80px;
-  }
-  
-  nav .left a {
-    color: var(--text-color);
-    font-size: 22px;
-    font-weight: 600;
-  }
-  
-  nav .right a {
-    color: var(--text-color);
-    margin: 0 10px;
-  }
-  
-  nav .right a:last-child {
-    color: var(--background-color);
-    background-color: var(--text-color);
-    padding: 5px 15px;
-    border-radius: 5px;
-  }
-  
-  nav .right a span {
-    margin-left: 5px;
-  }
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: #282c34; 
+  color: #ffffff; 
+  font-family: Arial, sans-serif; 
+}
+
+
+nav .left a {
+  font-size: 1.8rem; 
+  font-weight: bold; 
+  color: #ffffff; 
+  text-decoration: none; 
+}
+
+
+nav .right {
+  display: flex; 
+}
+
+nav .right a {
+  margin-left: 2rem; 
+  color: #ffffff; 
+  text-decoration: none;  
+  font-size: 1rem; 
+  transition: color 0.3s; 
+}
+
+nav .right a:hover {
+  color: #61dafb; 
+}
+
+
+}
+
    /* SECTION 1: Hero */
 .hero-section {
     display: flex;
