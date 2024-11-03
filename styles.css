@@ -443,4 +443,37 @@ footer a {
   color: var(--text-dark);
 }
 
+.contact-section .group form input,
+.contact-section .group form textarea {
+  font-family: 'Poppins', sans-serif;
+  border: 2px solid var(--primary-color);
+  background-color: var(--extra-light);
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 16px;
+  color: var(--text-dark);
+  outline: none;
+}
+
+.contact-section .group form textarea {
+  resize: vertical; /* Allow resizing only vertically */
+  min-height: 150px;
+}
+
+.contact-section .group form button {
+  font-size: 16px;
+  font-family: 'Poppins', sans-serif;
+  color: #fff;
+  background-color: var(--primary-color);
+  border: none;
+  height: 50px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.contact-section .group form button:hover {
+  background-color: var(--primary-color-dark);
+}
+
 
