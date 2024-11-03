@@ -419,4 +419,28 @@ footer a {
   margin-bottom: 20px;
 }
 
+.contact-section .group {
+  display: flex;
+  flex-direction: column;
+  gap: 20px; /* Reduce gap for better spacing on smaller screens */
+}
+
+.contact-section .group .text {
+  font-size: 16px;
+  color: var(--text-light);
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.contact-section .group form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.contact-section .group form label {
+  font-weight: 600;
+  color: var(--text-dark);
+}
+
 
