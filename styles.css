@@ -123,51 +123,66 @@ nav .right a:hover {
     border-radius: 50%;
   }
 
-  /* SECTION 2: Skills */
-.skills-section {
-    padding: 0 50px;
-    margin-bottom: 100px;
-  }
-  
-  .skills-section h2 {
-    text-align: center;
-    font-size: 35px;
-  }
-  
-  .skills-section .text {
-    text-align: center;
-    margin-bottom: 20px;
-  }
-  
-  .skills-section .cells {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-  }
-  
-  .skills-section .cells .cell {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-  
-    width: 200px;
-    padding: 10px 20px;
-    margin: 10px;
-    border: 1.5px solid #d3d3d3;
-    border-radius: 5px;
-  }
-  
-  .skills-section .cells .cell img {
-    width: 30px;
-    height: 30px;
-    object-fit: contain;
-    border-radius: 2px;
-  }
-  
-  .skills-section .cells .cell span {
-    font-size: 18px;
-  }
+ /* BLOG SECTION */
+.blog-section {
+  padding: 50px;
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: var(--background-color);
+}
+
+.blog-section h2 {
+  font-size: 35px;
+  text-align: center;
+  color: var(--text-color);
+  margin-bottom: 20px;
+}
+
+.blog-post {
+  border: 1.5px solid #d3d3d3;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 40px;
+  background-color: #ffffff;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
+}
+
+.blog-post:hover {
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.blog-post h3 {
+  font-size: 28px;
+  color: var(--text-color);
+  margin-bottom: 10px;
+}
+
+.blog-post .date {
+  font-size: 14px;
+  color: #999999;
+  font-style: italic;
+  margin-bottom: 15px;
+}
+
+.blog-post p {
+  font-size: 18px;
+  line-height: 1.6;
+  color: var(--text-color);
+}
+
+.blog-post a {
+  color: var(--link-color);
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.blog-post a:hover {
+  text-decoration: underline;
+}
+
+
+
 
   /* SECTION 3: Contact */
 .contact-section {
