@@ -342,6 +342,11 @@ ul li a:hover {
   background-color: darken(var(--button-color), 10%);
 }
 
+/* nth-child Pseudo-Class */
+.about-content p:nth-child(odd) {
+  color: #4b6cb7; /* Alternate text color */
+}
+
 /* Blog Page Styles */
 .heading {
   text-align: center;
