@@ -238,27 +238,29 @@ ul li a:hover {
   }
 }
 
-  /* ABOUT SECTION */
+ /* ABOUT SECTION */
 .about-section {
   padding-top: 100px;
   max-width: 800px;
   margin: 0 auto;
-  background-color: var(--background-color);
-  color: var(--text-color);
+  background-color: var(--extra-light); /* Match the main page background */
+  color: var(--text-dark);
   text-align: center;
 }
 
 .about-section h2 {
-  font-size: 35px;
-  color: var(--text-color);
-  margin-bottom: 20px;
+  font-size: 2.5rem;
+  font-weight: 400;
+  line-height: 3rem;
+  color: var(--text-dark);
+  margin-bottom: 1rem;
 }
 
 .about-section p {
   font-size: 18px;
   line-height: 1.6;
-  color: var(--text-color);
-  margin-bottom: 30px;
+  color: var(--text-light); /* Adjust to match main page text color */
+  margin-bottom: 2rem; /* Consistent spacing with main page */
 }
 
 .about-section .profile-pic {
@@ -296,6 +298,7 @@ ul li a:hover {
 .about-section .cta-button:hover {
   background-color: darken(var(--button-color), 10%);
 }
+
 
 
 
