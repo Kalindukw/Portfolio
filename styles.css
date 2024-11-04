@@ -99,6 +99,12 @@ footer {
   padding: 20px;
 }
 
+/* Gradient Animation */
+@keyframes gradientBackground {
+  0% { background: linear-gradient(90deg, #4b6cb7, #182848); }
+  50% { background: linear-gradient(90deg, #182848, #4b6cb7); }
+  100% { background: linear-gradient(90deg, #4b6cb7, #182848); }
+}
 
 
 /* Responsive nav */
@@ -202,6 +208,20 @@ ul li a:hover {
   border-radius: 10px;
   transition: 0.3s;
   cursor: pointer;
+}
+
+/* Transform and Animation for Buttons */
+button.hire__me, button.portfolio {
+  background-color: #20a4f3;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+button.hire__me:hover, button.portfolio:hover {
+  transform: scale(1.1); /* Enlarges button slightly */
 }
 
 .hire__me {
