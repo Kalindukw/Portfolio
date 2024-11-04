@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
 
 :root {
-  --primary-color: #a855f7;
+  --primary-color: #9333ea;
   --primary-color-dark: #9333ea;
   --secondary-color: #ca8a04;
   --text-dark: #1f2937;
@@ -251,6 +251,7 @@ ul li a:hover {
 
 /* Centered Content Container */
 .about-content {
+  min-height: 100vh;
   max-width: 800px; /* Limit text width */
   margin: 0 auto; /* Center align content */
   padding: 0 1rem; /* Padding for inner spacing */
