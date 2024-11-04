@@ -1,12 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
 
 :root {
-  --primary-color: #9333ea;
-  --primary-color-dark: #9333ea;
-  --secondary-color: #ca8a04;
+  --primary-color: #20a4f3;
+  --primary-color-dark:#15a4f8 ;
+  --secondary-color: #15a4f8;
   --text-dark: #1f2937;
   --text-light: #6b7280;
-  --extra-light: #faf5ff;
+  --extra-light: #d0efff73;
   --max-width: 1200px;
 }
 
@@ -22,6 +22,10 @@ a {
 
 body {
   font-family: "Poppins", sans-serif;
+}
+
+html{
+  scroll-behavior: smooth;
 }
 
 /* navbar styling */
@@ -44,7 +48,7 @@ nav .left a {
   color: var(--primary-color);
   transition: color 0.3s;
 }
-
+/* pseudo class */
 nav .left a:hover {  
   color: var(--primary-color-dark);
 }
@@ -66,7 +70,22 @@ nav .right a {
 nav .right a:hover {  
   color: var(--secondary-color);
   border-color: var(--secondary-color);
+  border-radius: 8px;
+  transition: 0.3s ease;
 }
+
+/* my css */
+nav .right .active {
+  color: var(--secondary-color);
+  border-color: var(--secondary-color);
+  border-radius: 8px;
+}
+
+a:not(.not-select) {
+  color: blue;
+  text-decoration: underline;
+}
+
 
 /* Responsive nav */
 @media (max-width: 750px) {  
@@ -312,6 +331,7 @@ ul li a:hover {
 .heading {
   text-align: center;
   margin: 2rem 0;
+  margin-top: 6rem;
 }
 
 .heading h1 {
@@ -399,6 +419,19 @@ ul li a:hover {
   margin: 1.5rem 0;
 }
 
+/* my css */
+article h1, 
+article h2, 
+article h3, 
+article h4, 
+article h5, 
+article h6, 
+article p, 
+article ul, 
+article ol {
+  margin-top: 1.8rem;
+}
+
 footer {
   text-align: center;
   padding: 1rem;
@@ -455,7 +488,10 @@ footer a {
 .contact-section .group form {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  margin: auto;
   gap: 15px;
+  max-width: 600px;
 }
 
 .contact-section .group form label {
@@ -473,6 +509,11 @@ footer a {
   font-size: 16px;
   color: var(--text-dark);
   outline: none;
+}
+
+/* my css */
+.contact-section .group form input::after{
+  border-color: var(--secondary-color);
 }
 
 .contact-section .group form textarea {
