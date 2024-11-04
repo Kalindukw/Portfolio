@@ -74,7 +74,7 @@ nav .right a:hover {
   transition: 0.3s ease;
 }
 
-/* my css */
+
 nav .right .active {
   color: var(--secondary-color);
   border-color: var(--secondary-color);
@@ -85,6 +85,20 @@ a:not(.not-select) {
   color: blue;
   text-decoration: underline;
 }
+
+/* Gradient Background for Navbar */
+nav {
+  background: linear-gradient(to right, #ffffff, #ffffff);
+  padding: 20px;
+}
+
+footer {
+  background: linear-gradient(180deg, #67c7ff, #1babff);
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
 
 
 /* Responsive nav */
@@ -136,6 +150,7 @@ ul li a:hover {
   grid-template-columns: repeat(2, 1fr);
   gap: 4rem;
 }
+
 
 .content {
   display: flex;
