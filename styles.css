@@ -526,7 +526,7 @@ footer a {
   outline: none;
 }
 
-/* my css */
+
 .contact-section .group form input::after{
   border-color: var(--secondary-color);
 }
@@ -550,6 +550,15 @@ footer a {
 
 .contact-section .group form button:hover {
   background-color: var(--primary-color-dark);
+}
+
+/* valid pseudoclass */
+input:valid {
+  border: 2px solid #4b6cb7; /* Green for valid inputs */
+}
+
+input:invalid {
+  border: 2px solid red; /* Red for invalid inputs */
 }
 
 /* Responsive adjustments */
