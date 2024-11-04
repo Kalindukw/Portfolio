@@ -240,7 +240,7 @@ ul li a:hover {
 
   /* ABOUT SECTION */
 .about-section {
-  padding: 50px;
+  padding-top: 100px;
   max-width: 800px;
   margin: 0 auto;
   background-color: var(--background-color);
@@ -402,12 +402,23 @@ footer a {
   text-decoration: none;
 }
 
+.social-links {
+  list-style: none;
+  display: flex;
+  gap: 10px;
+}
+.social-links li a {
+  color: inherit; /* or specify a color */
+  text-decoration: none;
+}
+
+
 
 
 
 /* SECTION 3: Contact */
 .contact-section {
-  padding: 50px 20px; /* Add padding on all sides for better layout */
+  padding-top: 100px; /* Add padding on all sides for better layout */
   max-width: 800px; /* Limit the width for larger screens */
   margin: 0 auto 100px auto; /* Center the section and add bottom spacing */
 }
