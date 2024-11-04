@@ -237,15 +237,23 @@ ul li a:hover {
     margin: auto;
   }
 }
-
- /* ABOUT SECTION */
+/* ABOUT SECTION */
 .about-section {
   padding-top: 100px;
-  max-width: 800px;
-  margin: 0 auto;
-  background-color: var(--extra-light); /* Match the main page background */
+  padding-left: 1rem;
+  padding-right: 1rem;
+  width: 100vw; /* Full width */
+  margin: 0; /* Remove margin to avoid gaps on the sides */
+  background-color: var(--extra-light); /* Background color */
   color: var(--text-dark);
   text-align: center;
+}
+
+/* Centered Content Container */
+.about-content {
+  max-width: 800px; /* Limit text width */
+  margin: 0 auto; /* Center align content */
+  padding: 0 1rem; /* Padding for inner spacing */
 }
 
 .about-section h2 {
@@ -259,8 +267,8 @@ ul li a:hover {
 .about-section p {
   font-size: 18px;
   line-height: 1.6;
-  color: var(--text-light); /* Adjust to match main page text color */
-  margin-bottom: 2rem; /* Consistent spacing with main page */
+  color: var(--text-light);
+  margin-bottom: 2rem;
 }
 
 .about-section .profile-pic {
@@ -298,9 +306,6 @@ ul li a:hover {
 .about-section .cta-button:hover {
   background-color: darken(var(--button-color), 10%);
 }
-
-
-
 
 /* Blog Page Styles */
 .heading {
